@@ -2,8 +2,8 @@
 
 LunaBlur is a lightweight Fabric client mod for Minecraft `1.21.11` that adds frame-blended motion blur without the heavier camera-vector style blur used by some newer mods.
 
-- Modrinth: `https://modrinth.com/project/lunablur`
-- GitHub: `https://github.com/kaanreal/lunablur`
+- Modrinth: https://modrinth.com/project/lunablur
+- GitHub: https://github.com/kaanreal/lunablur
 
 ## Features
 
