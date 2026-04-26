@@ -1,22 +1,51 @@
-# LunaBlur
+<p align="center">
+  <img src="src/main/resources/assets/icon.png" alt="LunaBlur icon" width="96" height="96">
+</p>
 
-LunaBlur is a lightweight Fabric client mod for Minecraft `1.21.11` that adds frame-blended motion blur without the heavier camera-vector style blur used by some newer mods.
+<h1 align="center">LunaBlur</h1>
 
+<<<<<<< Updated upstream
 - Modrinth: https://modrinth.com/project/lunablur
 - GitHub: https://github.com/kaanreal/lunablur
+=======
+<p align="center">
+  Lightweight motion blur for Fabric.<br>
+  Clean frame blending, simple controls, and a fast client-side setup for <code>Minecraft 1.21.11</code>.
+</p>
+>>>>>>> Stashed changes
 
-## Features
+<p align="center">
+  <a href="https://modrinth.com/project/lunablur">Modrinth</a>
+  |
+  <a href="https://github.com/kaanreal/lunablur">GitHub</a>
+  |
+  <a href="https://github.com/kaanreal/lunablur/issues">Issues</a>
+</p>
 
-- Lightweight fullscreen motion blur
+## Overview
+
+LunaBlur adds a lightweight fullscreen motion blur effect without going for the heavier cinematic style some other blur mods use. The goal is simple: keep the game feeling smoother in motion while staying easy to use and easy to drop into a normal Fabric setup.
+
+## Preview
+
+| Without LunaBlur | With LunaBlur |
+| --- | --- |
+| ![Without blur](src/main/resources/assets/example_noblur.png) | ![With blur](src/main/resources/assets/example_blur.png) |
+
+## Why LunaBlur
+
+- Lightweight frame-blended motion blur
 - Cloth Config settings screen
 - Optional Mod Menu integration
-- Simple commands and keybinds
+- Simple command setup
+- Toggle keybind and menu keybind included
+- Client-side only
 
 ## Installation
 
-Install these mods in your `mods` folder:
+Put these mods in your `mods` folder:
 
-- LunaBlur
+- `lunablur-1.0.0+mc1.21.11.jar`
 - Fabric API
 - Cloth Config
 
@@ -26,13 +55,15 @@ Optional:
 
 ## Usage
 
-- `/lunablur`
-- `/lunablur <0-100>`
+Commands:
 
-## Keybinds
+- `/lunablur` opens the config menu
+- `/lunablur <0-100>` sets blur strength
 
-- `B` opens the config menu by default
-- `H` toggles blur on or off by default
+Default keybinds:
+
+- `B` opens the config menu
+- `H` toggles blur on or off
 
 ## Requirements
 
@@ -40,10 +71,13 @@ Optional:
 - Fabric Loader `0.18.1+`
 - Fabric API `0.141.1+1.21.11`
 - Cloth Config `21.11.153+fabric`
-- Mod Menu `17.0.0` is optional
 - Java `21`
 
-## Project
+Optional:
+
+- Mod Menu `17.0.0`
+
+## Project Info
 
 - Version: `1.0.0+mc1.21.11`
 - Environment: client-side only
