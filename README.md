@@ -4,15 +4,6 @@
 
 <h1 align="center">LunaBlur</h1>
 
-<<<<<<< Updated upstream
-- Modrinth: https://modrinth.com/project/lunablur
-- GitHub: https://github.com/kaanreal/lunablur
-=======
-<p align="center">
-  Lightweight motion blur for Fabric.<br>
-  Clean frame blending, simple controls, and a fast client-side setup for <code>Minecraft 1.21.11</code>.
-</p>
->>>>>>> Stashed changes
 
 <p align="center">
   <a href="https://modrinth.com/project/lunablur">Modrinth</a>
@@ -26,20 +17,15 @@
 
 LunaBlur adds a lightweight fullscreen motion blur effect without going for the heavier cinematic style some other blur mods use. The goal is simple: keep the game feeling smoother in motion while staying easy to use and easy to drop into a normal Fabric setup.
 
-## Preview
+## Motion Blur examples:
 
-| Without LunaBlur | With LunaBlur |
+| Without | With |
 | --- | --- |
 | ![Without blur](src/main/resources/assets/example_noblur.png) | ![With blur](src/main/resources/assets/example_blur.png) |
 
 ## Why LunaBlur
 
-- Lightweight frame-blended motion blur
-- Cloth Config settings screen
-- Optional Mod Menu integration
-- Simple command setup
-- Toggle keybind and menu keybind included
-- Client-side only
+I took inspiration of this <a href="https://modrinth.com/mod/motionblur">Mod</a> from <a href="https://github.com/Noryea">Noryea</a> and made it for 1.21.11
 
 ## Installation
 
