@@ -1,0 +1,13 @@
+{
+  "modmenu.nameTranslation.lunablur": "LunaBlur",
+  "modmenu.summaryTranslation.lunablur": "A lightweight client-side motion blur mod for Fabric.",
+  "modmenu.descriptionTranslation.lunablur": "LunaBlur adds lightweight frame-blended motion blur with a Cloth Config settings screen.",
+  "screen.lunablur.title": "LunaBlur",
+  "screen.lunablur.category.general": "General",
+  "option.lunablur.enabled": "Enabled",
+  "option.lunablur.strength": "Strength",
+  "key.category.lunablur.controls": "LunaBlur",
+  "key.lunablur.open_menu": "Open config menu",
+  "key.lunablur.toggle_blur": "Toggle blur",
+  "message.lunablur.toggled": "LunaBlur: %s"
+}

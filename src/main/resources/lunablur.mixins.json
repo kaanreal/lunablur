@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.lunablur.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "PostEffectPassAccessor",
+    "PostEffectProcessorAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

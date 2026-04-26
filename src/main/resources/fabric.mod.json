@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "lunablur",
+  "version": "${version}",
+  "name": "LunaBlur",
+  "description": "A lightweight client-side motion blur mod for Fabric.",
+  "authors": [
+    "Kaan"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/lunablur",
+    "sources": "https://github.com/kaanreal/lunablur",
+    "issues": "https://github.com/kaanreal/lunablur/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/lunablur/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.lunablur.LunaBlurClient"
+    ],
+    "modmenu": [
+      "dev.lunablur.compat.modmenu.LunaBlurModMenu"
+    ]
+  },
+  "mixins": [
+    "lunablur.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
